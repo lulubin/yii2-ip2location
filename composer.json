@@ -1,0 +1,24 @@
+{
+    "name": "lulubin/yii2-ip2location",
+    "description": "An Yii2 extension for ip to location",
+    "keywords": ["yii2", "extension", "ip2location"],
+    "homepage": "https://github.com/lulubin/yii2-ip2location",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lulubin",
+            "email": "452936616@qq.com",
+            "homepage": "https://lulublog.cn/"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "lulubin\\ip2location\\": "src/"
+        }
+    }
+}
